@@ -31,6 +31,9 @@ void print_file_contents(char *filename)
                 case 't':
                     printf("\t");
                     break;
+                case '\\':
+                    printf("\\");
+                    break;
                 default:
                     break;
             }
