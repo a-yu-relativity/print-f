@@ -35,6 +35,7 @@ void print_file_contents(char *filename)
                     printf("\\");
                     break;
                 default:
+                    printf("\\");
                     break;
             }
         }
